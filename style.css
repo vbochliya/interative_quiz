@@ -1,0 +1,118 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+    
+}
+body {
+    background-image: url(pic1.jpg);
+    background-size: cover;
+}
+
+#start_container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+}
+#start_button{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid #f3ebe6;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+#start_button:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+#container{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    height: 10vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#qans{
+    margin-top: 5vh;
+    height: 60vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.questions{
+    height: 20vh;
+    width: 100%;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.options{
+    height: 20vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.option_button{
+    height: 2.5rem;
+    width: 18rem;
+    margin: 1rem;
+    padding: .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option_button:hover{
+    opacity: .8;
+}
+#next_question{
+    height: 2rem;
+    width: 15rem; 
+    color: white;
+    font-size: 1.5rem;
+    background-color: blue;
+    border-radius: .5rem;
+    border: 1px solid #f3ebe6;
+}
+#next_question:hover{
+    opacity: .8;
+}
+#progress{
+    height: 5rem;
+    width: 100vw;
+    /* color: white; */
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    background-color: beige;
+}
+#score{
+    
+}
+#timer{
+
+}
